@@ -1,0 +1,6 @@
+bedrock-agentcore
+boto3>=1.40
+PyJWT
+aws-opentelemetry-distro>=0.10.0
+urllib3
+requests

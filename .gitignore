@@ -1,0 +1,59 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+agent_runtime_ids.json
+# Testing directory with sensitive info
+testing/
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS credentials and config files
+.aws/
+aws.json
+**/aws-credentials*
+**/credentials
+# **/config
+**/.aws-sam/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+env/
+.envrc
+**/.secrets*
+**/secrets.*
+**/secrets/
+**/*credential*
+**/*password*
+**/*token*
+**/*key*
+**/*cert*
+**/*pem
+
+# Local configuration
+**/pipeline_config/
+**/local_settings*
+*config.json
+*settings.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-*
+.project
+.classpath
