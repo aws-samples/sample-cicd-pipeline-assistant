@@ -49,6 +49,10 @@ This project deploys AWS resources that monitor your CodePipeline for failures, 
    pip install -r requirements.txt
    ```
 
+## Architecture
+
+![Architecture Diagram](CI:CD%20Pipeline%20Assistant.png)
+
 ## Deployment
 
 0. **Configure your aws account connectivity from you shell**
