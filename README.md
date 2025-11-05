@@ -51,7 +51,7 @@ This project deploys AWS resources that monitor your CodePipeline for failures, 
 
 ## Architecture
 
-![Architecture Diagram](CI:CD%20Pipeline%20Assistant.png)
+![Architecture Diagram](./cicd-pipeline-assistant.png)
 
 ## Deployment
 
